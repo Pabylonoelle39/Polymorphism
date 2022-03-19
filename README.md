@@ -1,0 +1,2 @@
+# Polymorphism
+// Base class class Animal {   public:     void animalSound() {     cout &lt;&lt; "The animal makes a sound \n" ;   } };  // Derived class class Pig : public Animal {   public:     void animalSound() {     cout &lt;&lt; "The pig says: wee wee \n" ;   } };  // Derived class class Dog : public Animal {   public:     void animalSound() {     cout &lt;&lt; "The dog says: bow wow \n" ;   } };
